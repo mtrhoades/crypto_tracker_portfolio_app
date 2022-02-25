@@ -1,0 +1,14 @@
+* {
+    margin: auto;
+    padding: 0.5em;
+}
+
+body {
+    background-color: aqua;
+    height: 100vh;
+    background-image: url("");
+}
+
+header {
+
+}

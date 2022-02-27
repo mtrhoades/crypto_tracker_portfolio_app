@@ -3,6 +3,8 @@
 
 
 
+
+// change function below to work for all sorts of images called in the url parameter/argument:
 function imageADA(url) {
     let adaImage = document.createElement('img')
     adaImage.src = url
@@ -14,3 +16,4 @@ function imageADA(url) {
 }
 
 imageADA('./assets/ADAlogoimage.jpg')
+

@@ -52,3 +52,33 @@ header h1 {
     width: 400px;
     display: block;
 }
+
+
+/* // for animation cards: */
+
+.animation {
+    border: 1px solid black;
+    display: flex;
+    padding: 2em;justify-content: space-around;
+}
+
+#a1 {
+    position: absolute;
+    background-color: red;
+    width: 300px;
+    height: 150px;
+}
+
+#a2 {
+    position: relative;
+    background-color: blue;
+    width: 400px;
+    height: 250px;
+}
+
+#a3 {
+    position: relative;
+    background-color: purple;
+    width: 500px;
+    height: 350px;
+}

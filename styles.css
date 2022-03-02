@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Concert+One&family=Josefin+Sans:wght@600&family=Luckiest+Guy&family=Righteous&display=swap');
+
 * {
     margin: auto;
     padding: 0.5em;
@@ -7,8 +9,46 @@ body {
     background-color: aqua;
     height: 100vh;
     background-image: url("");
-}
+    font-family: 'Josefin Sans', sans-serif;}
 
 header {
+    text-align: center;
+}
 
+.headerLogo {
+    width: 750px;
+    display: inline-flex;
+    /* border: 2px outset #696969; */
+    border-radius: 75px;
+    /* box-shadow: 5px 10px; */
+}
+
+#cubes {
+    width: 200px;
+}
+
+header h1 {
+    font-size: 75px;
+    font-family: 'Concert One', cursive;
+    letter-spacing: 20px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex;
+    height: 100vh;
+    padding: 2em;
+}
+
+.coinCategories {
+    width: 500px;
+    height: 350px;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+#adaImage {
+    width: 400px;
+    display: block;
 }

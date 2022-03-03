@@ -1,7 +1,11 @@
 
-
-// add click event listeners to each image for each coin category
-function addClicksToBlocks() {
-    // for all divs with class name = "coinCategories"
+// looping for clicking on all cards/blocks
+function cardClicking () {
+    const card = document.querySelectorAll("div.card__inner");
+    for (let i = 0; i < card.length; i++) {
+        card[i].addEventListener("click", function() {
+          card[i].classList.toggle('is-flipped');
+        });
+    }
 }
-
+cardClicking()
